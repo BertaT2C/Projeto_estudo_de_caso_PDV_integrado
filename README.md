@@ -1,4 +1,8 @@
 # Projeto estudo de caso de PDV integrado
+
+
+![Captura_de_tela_2024-02-02_144113-removebg-preview](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/bb933a64-5495-432f-9881-e877394c7f53)
+
 ## Projeto com estudo de caso de empresa B2C (integração de máquinas)
 
 Este documento descreve o processo da ABS, que consiste em um sistema automatizado de servir bebidas. Dessa forma, assim que a venda é finalizada, um comando é enviado ao ABS que irá preparar a bebida de acordo com algumas regras:
