@@ -3,7 +3,7 @@
 
 ![Captura_de_tela_2024-02-02_144113-removebg-preview](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/bb933a64-5495-432f-9881-e877394c7f53)
 <br>
-**🚨Aviso Importante:**
+## **🚨Aviso Importante:**
 
 Este estudo de caso é completamente fictício e não está relacionado a nenhuma empresa ou organização real. Todos os dados, informações e cenários apresentados neste projeto foram criados com o propósito de demonstrar habilidades técnicas e práticas de modelagem de sistema.
 O estudo de caso foi desenvolvido como parte de um projeto de demonstração e não representa nenhum cliente, produto ou serviço real. Quaisquer semelhanças com empresas, produtos, serviços ou eventos reais são puramente coincidência.
