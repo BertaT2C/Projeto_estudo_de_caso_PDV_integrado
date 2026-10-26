@@ -1,91 +1,104 @@
-# Projeto de estudo de caso — PDV integrado à máquina automatizada de bebidas
+# Estudo de caso | PDV integrado à máquina automatizada de bebidas (ABS)
 
-![Captura_de_tela_2024-02-02_144113-removebg-preview](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/bb933a64-5495-432f-9881-e877394c7f53)
+**Análise de Negócios · Regras de Negócio · Integração de Sistemas · Modelagem de Processos · BDD**
+
+![Imagem de apresentação do estudo de caso](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/bb933a64-5495-432f-9881-e877394c7f53)
 
 ## 🚨 Aviso importante
 
-**Este projeto é um estudo de caso inteiramente fictício.** Não se refere a nenhuma empresa, cliente, produto ou serviço real. Os dados, as regras e os cenários foram definidos exclusivamente para demonstrar competências de **Análise de Negócios, modelagem de processos e especificação funcional de uma integração entre sistemas**.
+Este é um **estudo de caso inteiramente fictício**, desenvolvido para demonstrar competências de análise de negócios, estruturação de requisitos e modelagem de sistemas. Não representa empresa, cliente, produto, implantação ou resultado operacional real.
 
-Qualquer semelhança com organizações ou situações reais é mera coincidência. As melhorias descritas representam **benefícios esperados**, não resultados medidos em produção.
+Os cenários, regras e imagens fazem parte de uma simulação. **Os benefícios são esperados, não resultados medidos.**
 
 ## Projeto com estudo de caso de empresa B2C — integração de máquinas
 
-### Contexto do negócio e funcionamento
+### Contexto do negócio
 
-O cenário simula a integração entre um **PDV (Ponto de Venda)** e o **ABS**, um sistema automatizado para servir bebidas. **Após a finalização da venda**, o PDV envia um comando ao ABS para que a bebida seja preparada de acordo com as características do pedido e as regras de negócio abaixo.
+O cenário apresenta um **Ponto de Venda (PDV)** integrado a um sistema automatizado de servir bebidas, identificado como **ABS**.
 
-O objetivo do processo é descrever o funcionamento da máquina de bebidas, considerando o tipo de bebida, o recipiente, a quantidade de gelo, o tamanho selecionado e a modalidade de consumo.
+**Evento principal:** depois que a venda é finalizada, o PDV envia um comando ao ABS para a preparação da bebida de acordo com as regras do pedido.
 
-### Regras de negócio do ABS
+O objetivo é **descrever o funcionamento da máquina de bebidas** e deixar claro como diferentes combinações de bebida, copo, gelo, tamanho e modalidade de consumo influenciam o preparo.
 
-1. **Sabores disponíveis:** o ABS oferece **4 sabores** de bebida, sendo **2 refrigerantes** (Coca e Guaraná) e **2 sucos** (Uva e Laranja).
-2. **Tipo de copo:** os **refrigerantes** são servidos em **copos de papel**, enquanto os **sucos** são servidos em **copos de plástico**.
-3. **Quantidade de gelo:** os refrigerantes recebem **6 pedras de gelo** e os sucos recebem **12 pedras de gelo**. Também existe a opção de servir **sem gelo**.
-4. **Tamanhos disponíveis:** os refrigerantes possuem **3 opções** (**300 ml, 500 ml e 700 ml**), enquanto os sucos possuem **2 opções** (**300 ml e 500 ml**).
-5. **Tipo de tampa:** pedidos **Take Out (Delivery)** recebem **tampa sem furo**; pedidos **Eat In** (consumo no restaurante) recebem **tampa com furo para canudo**.
+### Regras de negócio originais
 
-Essas regras definem as condições funcionais para a preparação da bebida após a conclusão da venda no PDV.
+As cinco regras abaixo preservam os dados e as condições definidos para o ABS:
+
+1. **Sabores:** são **4 sabores**, sendo **2 refrigerantes** (**Coca e Guaraná**) e **2 sucos** (**Uva e Laranja**).
+2. **Copos:** os **refrigerantes** são servidos em **copos de papel** e os **sucos**, em **copos de plástico**.
+3. **Gelo:** refrigerantes recebem **6 pedras de gelo** e sucos recebem **12 pedras de gelo**. O pedido também pode ser preparado **sem gelo**.
+4. **Tamanhos:** refrigerantes possuem **300 ml, 500 ml e 700 ml**; sucos possuem **300 ml e 500 ml**.
+5. **Tampas:** pedidos **Take Out (Delivery)** recebem **tampa sem furo**; pedidos **Eat In** (consumo no restaurante) recebem **tampa com furo para o canudo**.
+
+Essas regras são a base do processo e dos exemplos funcionais complementares. Nenhuma regra foi adicionada sobre validações, falhas técnicas ou tratamento de pedidos que não constem na fonte.
 
 ## Benefícios esperados
 
-- **Automatizar a saída de bebidas**, buscando eliminar desperdícios.
-- **Reduzir o tempo de ciclo**, aumentando a eficiência do processo.
-- **Eliminar atividades desnecessárias** na operação.
-- **Permitir a visualização do processo de ponta a ponta**, do fechamento da venda à preparação da bebida.
+- **Automação da saída de bebidas**, com potencial para eliminar desperdícios;
+- **Redução do tempo de ciclo**, buscando maior eficiência operacional;
+- **Eliminação de atividades desnecessárias** ao longo da operação;
+- **Visibilidade do processo de ponta a ponta**, desde a finalização da venda até o preparo.
+
+**Importante:** não há dados de linha de base ou resultados antes/depois neste estudo; portanto, não foram estimados percentuais de ganho, economia ou produtividade.
 
 ### Fluxograma original do processo
 
-![Fluxograma ABS maquina de bebidas](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/c843fa92-faa8-44c2-9f5d-efd83dba38a7)
+![Fluxograma original do ABS — máquina de bebidas](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/c843fa92-faa8-44c2-9f5d-efd83dba38a7)
 
 ### Imagem complementar original
 
-![download](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/c10eeef1-63e2-4f2a-9738-b51b450fd9ca)
+![Imagem complementar original do estudo](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/c10eeef1-63e2-4f2a-9738-b51b450fd9ca)
 
 ---
 
-## Visão funcional para Análise de Negócios
+## Visão funcional e lógica de integração
 
-A sequência abaixo é uma **leitura textual das regras do estudo de caso**. Ela complementa as imagens existentes, sem substituir ou alterar o fluxograma original.
+A representação abaixo é uma **leitura textual** da lógica já descrita. O fluxograma acima permanece como evidência visual original.
 
-| Etapa | Entrada ou condição | Comportamento previsto |
+| Momento | Informação considerada | Comportamento esperado |
 | --- | --- | --- |
-| **1. Venda no PDV** | Venda finalizada | Enviar comando de preparo ao ABS |
-| **2. Identificação da bebida** | Refrigerante ou suco, conforme o pedido | Selecionar as regras correspondentes à bebida |
-| **3. Definição do recipiente** | Refrigerante / suco | Utilizar copo de papel / plástico, respectivamente |
-| **4. Definição do gelo** | Tipo de bebida e opção sem gelo | Aplicar 6 ou 12 pedras, ou não adicionar gelo |
-| **5. Verificação do tamanho** | Tamanho escolhido no pedido | Considerar apenas os tamanhos disponíveis para o tipo de bebida |
-| **6. Finalização do preparo** | Take Out ou Eat In | Aplicar a tampa correspondente à modalidade de consumo |
+| Venda concluída no PDV | Finalização da venda | Envio do comando de preparo ao ABS |
+| Identificação da bebida | Coca, Guaraná, Uva ou Laranja | Aplicação das regras da categoria |
+| Escolha do copo | Refrigerante ou suco | Papel ou plástico, respectivamente |
+| Definição do gelo | Categoria e opção sem gelo | 6 pedras, 12 pedras ou nenhuma |
+| Definição do tamanho | Categoria da bebida | Refrigerante: 300/500/700 ml; suco: 300/500 ml |
+| Modalidade do pedido | Take Out ou Eat In | Tampa sem furo ou com furo para canudo |
 
-### Exemplos de critérios de aceitação derivados das regras
+### Como a documentação do projeto está organizada
 
-*Exemplos de especificação funcional, elaborados a partir do cenário fictício; não são evidência de testes já executados.*
+| Material | O que demonstra | Acesso |
+| --- | --- | --- |
+| **Especificação funcional** | Objetivo, escopo, matriz com **5 regras** e requisitos rastreáveis | [Consultar](./docs/01_ESPECIFICACAO_FUNCIONAL.md) |
+| **Histórias de usuário e BDD** | **6 histórias** e **12 cenários** construídos a partir das regras fictícias | [Consultar](./docs/02_HISTORIAS_E_BDD.md) |
+| **Matriz de testes** | **15 verificações sugeridas**, 4 exemplos integrados e rastreabilidade | [Consultar](./docs/03_MATRIZ_DE_TESTES.md) |
+| **Documentação original** | Texto completo anterior a esta reorganização | [Consultar](./DOCUMENTACAO_ORIGINAL.md) |
 
-**Cenário 1 — Refrigerante com gelo**
+> **Rastreabilidade:** RF, HU, BDD e CT são identificadores documentais criados para apresentar o estudo. Eles **não** indicam tarefas reais de Jira, homologações realizadas ou funcionalidades implantadas.
 
-- **Dado** um pedido de refrigerante em tamanho disponível, com gelo e na modalidade *Take Out*;
-- **Quando** a venda for finalizada e o comando de preparo for enviado ao ABS;
-- **Então** o preparo deverá utilizar **copo de papel**, **6 pedras de gelo** e **tampa sem furo**.
+## Exemplos de critérios de aceitação
 
-**Cenário 2 — Suco sem gelo**
+Os exemplos abaixo resultam **diretamente das regras**. São ilustrações de comportamento esperado, e não testes executados.
 
-- **Dado** um pedido de suco em tamanho disponível, com a opção **sem gelo** e na modalidade *Eat In*;
-- **Quando** a venda for finalizada e o comando de preparo for enviado ao ABS;
-- **Então** o preparo deverá utilizar **copo de plástico**, **sem gelo** e **tampa com furo**.
+**Cenário A — Refrigerante, com gelo, Take Out**
 
-**Cenário 3 — Restrições de tamanho**
+- **Dado** um pedido de refrigerante em um tamanho disponível, com gelo e na modalidade Take Out;
+- **Quando** a venda for finalizada e o comando de preparo enviado ao ABS;
+- **Então** a bebida deverá usar **copo de papel**, **6 pedras de gelo** e **tampa sem furo**.
 
-- **Dado** que a bebida selecionada seja **refrigerante**;
-- **Quando** o tamanho do pedido for considerado para o preparo;
-- **Então** os tamanhos previstos serão **300 ml, 500 ml e 700 ml**.
+**Cenário B — Suco, sem gelo, Eat In**
 
-- **Dado** que a bebida selecionada seja **suco**;
-- **Quando** o tamanho do pedido for considerado para o preparo;
-- **Então** os tamanhos previstos serão **300 ml e 500 ml**.
+- **Dado** um pedido de suco em um tamanho disponível, sem gelo e na modalidade Eat In;
+- **Quando** a venda for finalizada e o comando de preparo enviado ao ABS;
+- **Então** a bebida deverá usar **copo de plástico**, **sem gelo** e **tampa com furo para canudo**.
 
-> **Escopo do estudo:** a documentação original não define retorno de erros do ABS, protocolo técnico de integração, autenticação, monitoramento ou regras para falha de comunicação. Esses aspectos não foram inventados nesta apresentação.
+Mais exemplos e as condições de tamanhos estão em [Histórias e BDD](./docs/02_HISTORIAS_E_BDD.md).
 
-## Competências evidenciadas pelo estudo
+## Competências evidenciadas
 
-**Análise de Negócios · Levantamento e documentação de requisitos · Regras de negócio · Mapeamento de processos · Integração entre sistemas · Especificação funcional · Critérios de aceitação · Visão ponta a ponta · Melhoria contínua**
+**Business Analysis | Análise de Requisitos | Regras de Negócio | Especificação Funcional | Mapeamento de Processos | Integração de Sistemas | User Stories | BDD | Critérios de Aceitação | Testes de Usuário (planejamento) | Melhoria Contínua**
 
-**Fonte do material:** [README original preservado](./DOCUMENTACAO_ORIGINAL.md). As três imagens e os dados do case permanecem nos mesmos arquivos e na mesma sequência de apresentação.
+### Limites do estudo
+
+A fonte não descreve API ou formato do comando, autenticação, resultados da máquina, falhas de comunicação, cancelamento, estoque ou controle físico dos insumos. Essas questões estão identificadas como **pontos de refinamento futuro**, não como comportamento implementado.
+
+**Fonte original:** [DOCUMENTACAO_ORIGINAL.md](./DOCUMENTACAO_ORIGINAL.md). A ordem e os endereços das **três imagens originais** permanecem iguais ao README inicial.
