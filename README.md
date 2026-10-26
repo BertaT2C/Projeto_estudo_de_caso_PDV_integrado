@@ -1,4 +1,4 @@
-7# Estudo de caso | PDV integrado à máquina automatizada de bebidas (ABS)
+Estudo de caso | PDV integrado à máquina automatizada de bebidas (ABS)
 
 **Análise de Negócios · Regras de Negócio · Integração de Sistemas · Modelagem de Processos · BDD**
 
