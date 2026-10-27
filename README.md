@@ -98,4 +98,3 @@ Mais exemplos e as condições de tamanhos estão em [Histórias e BDD](./docs/0
 
 A fonte não descreve API ou formato do comando, autenticação, resultados da máquina, falhas de comunicação, cancelamento, estoque ou controle físico dos insumos. Essas questões estão identificadas como **pontos de refinamento futuro**, não como comportamento implementado.
 
-**Fonte original:** [DOCUMENTACAO_ORIGINAL.md](./DOCUMENTACAO_ORIGINAL.md). A ordem e os endereços das **três imagens originais** permanecem iguais ao README inicial.
