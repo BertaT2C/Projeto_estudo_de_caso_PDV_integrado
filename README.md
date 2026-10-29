@@ -1,4 +1,4 @@
-Estudo de caso | PDV integrado à máquina automatizada de bebidas (ABS)
+# Estudo de caso | PDV integrado à máquina automatizada de bebidas (ABS)
 
 **Análise de Negócios · Regras de Negócio · Integração de Sistemas · Modelagem de Processos · BDD**
 
@@ -45,6 +45,10 @@ Essas regras são a base do processo e dos exemplos funcionais complementares. N
 
 ![Fluxograma original do ABS — máquina de bebidas](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/c843fa92-faa8-44c2-9f5d-efd83dba38a7)
 
+
+### Imagem complementar original
+
+![Imagem complementar original do estudo de PDV integrado](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/c10eeef1-63e2-4f2a-9738-b51b450fd9ca)
 
 ---
 
