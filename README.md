@@ -1,5 +1,25 @@
 # Estudo de caso | PDV integrado à máquina automatizada de bebidas (ABS)
 
+## Do desafio de integração à especificação e testes — passo a passo do estudo de caso
+
+Esta síntese organiza o material existente em uma narrativa de negócio: do problema identificado aos artefatos, entregas e à forma de avaliar valor.
+
+| Etapa | Processo, decisão e evidência |
+| --- | --- |
+| **Desafio** | Venda concluída no PDV precisa orientar o preparo de bebida na máquina ABS. |
+| **Discovery** | Identificação das dimensões sabor, copo, gelo, tamanho e modalidade. |
+| **Fluxo de referência** | PDV → envio de comando → aplicação de regras → preparo esperado; sem operação AS IS anterior documentada. |
+| **Regras** | Cinco regras definem sabores, recipientes, gelo, tamanhos e tampas. |
+| **Requisitos e backlog** | Seis histórias de usuário com rastreabilidade funcional. |
+| **BDD e testes** | Doze cenários BDD, quinze verificações propostas e quatro exemplos ponta a ponta. |
+| **Riscos e evolução** | Integrações, erros, duplicidade, estoque e métricas ainda precisam ser definidos para aplicação real. |
+
+**Documentação e materiais:** [Especificação funcional](./docs/01_ESPECIFICACAO_FUNCIONAL.md) · [Histórias e BDD](./docs/02_HISTORIAS_E_BDD.md) · [Matriz de testes](./docs/03_MATRIZ_DE_TESTES.md) · [Página do case](https://bertat2c.github.io/pdv.html).
+
+**Interpretação do case:** Estudo de caso didático: a matriz contém testes propostos, não executados; não há POC implantada.
+
+---
+
 **Análise de Negócios · Regras de Negócio · Integração de Sistemas · Modelagem de Processos · BDD**
 
 ![Imagem de apresentação do estudo de caso](https://github.com/BertaT2C/Projeto_estudo_de_caso_PDV_integrado/assets/99225701/bb933a64-5495-432f-9881-e877394c7f53)
