@@ -119,3 +119,11 @@ Mais exemplos e as condições de tamanhos estão em [Histórias e BDD](./docs/0
 
 A fonte não descreve API ou formato do comando, autenticação, resultados da máquina, falhas de comunicação, cancelamento, estoque ou controle físico dos insumos. Essas questões estão identificadas como **pontos de refinamento futuro**, não como comportamento implementado.
 
+
+## Simulador interativo ABS
+
+- [Abrir demonstração web](https://bertat2c.github.io/projetos/abs/)
+- [Código HTML, CSS e JavaScript](./simulador/index.html)
+- Fluxograma original incorporado ao HTML, acessível pela seção de consulta.
+
+O simulador permite configurar sabor, volume, gelo, modalidade e cenários demonstrativos, acompanhar a máquina animada e consultar o histórico da execução. A regra de gelo segue a documentação acima. Alertas de estoque, falhas de envio e mensagens de painel são interpretações demonstrativas do desenho, ainda não validadas como requisitos reais. Não há conexão física com PDV ou equipamento.
